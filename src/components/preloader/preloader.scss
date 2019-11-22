@@ -1,0 +1,9 @@
+.preloader {
+  display: grid;
+  grid-template-columns: max-content;
+  grid-template-rows: max-content;
+  justify-self: center;
+  align-self: center;
+  grid-row: 1 / -1;
+  font-weight: 900;
+}

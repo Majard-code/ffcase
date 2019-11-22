@@ -1,0 +1,29 @@
+.filters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  position: relative;
+  width: 100%;
+  height: max-content;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  p {
+    display: block;
+    line-height: 14px;
+    padding: 0 5px;;
+    position: absolute;
+    top: -7px;
+    left: 15px;
+    font-size: 14px;
+    font-weight: 300;
+    background-color: white;
+  }
+  .filter {
+    position: relative;
+    height: max-content;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+  }
+}
